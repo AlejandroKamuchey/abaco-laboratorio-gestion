@@ -2,7 +2,7 @@
 
 Dashboard visual e interactivo para enseñar gestión empresarial en FP.
 
-**[Abrir la demo](https://abaco-laboratorio-gestion.alexisdemo05.chatgpt.site)**
+**[Abrir la demo](https://AlejandroKamuchey.github.io/abaco-laboratorio-gestion/)**
 
 ## Funcionalidades
 
@@ -40,4 +40,6 @@ React, TypeScript, Vinext/Vite, Fluent UI y Recharts. Tipografía Geist alojada 
 - `app/globals.css`: diseño adaptable.
 - `lib/model.ts`: datos y cálculo de escenarios.
 
-La demo está alojada en Sites. Este repositorio publica su código fuente; no configura GitHub Pages.
+## Publicar en GitHub Pages
+
+Ejecuta `npm run build:pages` y sube la carpeta `docs` actualizada. GitHub Pages sirve `main /docs`. La configuración de Vite incluye la ruta del repositorio para que todos los recursos carguen correctamente.
